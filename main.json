@@ -1,0 +1,21 @@
+var plants =
+[
+    {
+     "name":"tomato",
+     "Category":"vegetable",
+     "SoilMoisture":"50%"
+    },
+
+    {
+     "name":"Chilly",
+     "Category":"Spice",
+     "SoilMoisture":"50%"
+    },
+
+    {
+     "name":"papaya",
+     "Category":"Fruit",
+     "SoilMoisture":"50%"
+    }
+]
+//var Category = [[1].Category,[2].Category,[3].Category];

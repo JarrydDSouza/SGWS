@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  .bg-img{
+  
+    background-image: url(./WetLeavesWallpaper.jpg);
+    /*filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 100%;
+  }
+
+  header {
+    position: fixed;
+    top:0;
+    Left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000;
+  }
+  header .SGWS{
+    position: relative;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+  }
+  header nav{
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+  }
+
+  header nav a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+  }
+
+
+
+  .SGWS:hover
+  {
+    color:  rgb(0, 111, 175);
+  }
+
+
+
+  .sticky
+  {
+    padding: 5px 100px;
+    background: rgba(55, 208, 255, 0.979);
+  }
+
+  .sticky a
+  {
+    color:  rgb(233, 243, 247);
+  }
+
+  nav a:hover
+  {
+    color:  rgb(0, 111, 175);
+  }
+
+  .sticky .SGWS
+  {
+    color:  rgb(233, 243, 247);
+  }
+
+  .sticky .SGWS:hover
+  {
+    color:  rgb(0, 111, 175);
+  }
+
+  a:active 
+  {
+    color:  rgb(0, 24, 75) !important ;
+    
+  }
+
+
+  h2
+  {
+    color: rgb(117, 219, 226);
+  }
+  p
+  {
+    color: rgb(255, 255, 255);
+  }
+
+
+  .text
+  {
+    position: absolute;
+    top: 100px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-style: groove;
+  }
+
+  .banner
+  {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    }
+
+
+
+
+
+
+
+
+  .dropbtn 
+  {
+    background-color: #52b9a8;
+    color: white;
+    padding: 10px 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown 
+  {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: #609e99;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover 
+  {
+    background-color: #8ef5f8a6
+  }
+  .dropdown:hover .dropdown-content 
+  {
+   display: block;
+  }
+
+  .dropdown:hover .dropbtn 
+  {
+   background-color: #409191;
+  }
+  .loginbtn 
+  {
+    background-color: #00c6f8;
+    color: white;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 1vh;
+    top: 1vh;
+    z-index: 100001;
+  }
+/*
+  .panel
+  {
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    scroll-behavior: smooth;
+  }
+*/
+
+
+
+
+  #Home
+  {
+    padding: 100px;
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #About
+  {
+    padding-top: 50px;
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+  }
+
+
+  #Help  {
+    padding-top: 50px;
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #YourGarden
+  {
+    padding-top: 50px;
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  background-color: #046380;
+  color: #FFF;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: 10px;
+}
+
+button:hover {
+  background-color: #034F66;
+}
+
+button:active {
+  background-color: #034154;
+  box-shadow: none;
+  position: relative;
+  top: 8px;
+  left: 2px;
+}

@@ -1,0 +1,2 @@
+scrolling fixed: (smooth scroll)
+minor color changes

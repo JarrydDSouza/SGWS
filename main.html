@@ -1,0 +1,142 @@
+<html>
+
+    <head>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+
+
+        <link href="main.css" rel="stylesheet">
+        <title>
+
+            Smart Garden Watering System
+
+        </title>
+    
+
+        <style>
+
+          
+
+        </style>
+
+
+    </head>
+
+
+    <body class="bg-img">
+      
+        <header>
+            <a href="#" class="SGWS">SGWS</a>
+            <nav>
+            
+                <a href="#Home">Home</a></li>
+                <a href="#About">About</a></li>
+                <a href="#Help">Help</a></li>
+                <a href="#YourGarden">Your Garden</a></li>
+            
+            </nav>
+
+
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+            })
+
+
+            $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+                // Store hash
+                var hash = this.hash;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+                } // End if
+            });
+            });
+        </script>
+
+
+        </header>
+
+
+
+        <div id="Home" class="panel">
+            <h2>This is Home</h2>
+        </div>
+
+        <div id="About" class="panel">
+            <h2>This is About our Project</h2>
+                    <br>
+
+                <h2>Why would you need it?</h2><br>
+
+                <p>For people who have difficulty gauging the amount of water.
+                Overwatering affects the plant greatly, especially in poorly drained environment. It is capable of automating the process by analyzing the moisture of soil.
+                Plants growing in soil that is too wet suffer from a lack of oxygen which leads to the death of roots and a loss of vigor in the plant. Stunted slow growth with yellowing leaves is a symptom of over watering.  Plants may suffer from leaf scorch or leaf burn. Water soaked spots and blisters (Oedema) may appear on stems and leaves. The crown of the plant may rot. Damaged roots have little defense against the entrance of rot causing soil organisms. And so the plant dies of root rot.
+                Waters the plants automatically
+                For people who have a too many plants to physically water each one.
+                Water levels can be modified remotely</p>
+
+        </div>
+
+        <div id="Help" class="panel">
+            <h2>Help</h2>
+
+            <div id="breed">
+                
+            </div>
+
+        </div>
+
+        <div id="YourGarden" class="panel">
+            <h2>This is Your Garden</h2>
+            <button id="btn">Fetch Info for 3 New Animals</button>
+            <div id="animal-info"></div>
+        </div>
+
+
+
+
+    <section class="banner"></section>
+
+
+
+        <!--img src="./Image1.jpg" alt="Plant Image" height="300" width="1350"></img--> <br>
+
+
+     <!--button class="loginbtn">Login</button-->
+
+    <!--div class="dropdown">
+        <button class="dropbtn">About Project</button>
+         <div class="dropdown-content">
+           <a href="introduction.html" target="_self">Introduction to the Project</a></li>
+           <a href="operation.html" target="_self">Operation of the System</a></li>
+           <a href="working.html" target="_self">Working of the Project</a></li>
+           <a href="benefits.html" target="_self">Benefits</a></li>
+           <a href="applications.html" target="_self">Applications</a></li>
+           <a href="expenditure.html" target="_self">Expenditure</a></li>
+           <a href="conclusion.html" target="_self">Conclusion</a></li>
+           <a href="teammembers.html" target="_self">Team Members</a></li>
+           <a href="faq.html" target="_self">FAQ</a></li>
+         </div>
+       
+       </div-->
+
+       <script src="main.js"></script>   
+    </body>
+     <br>
+
+</html>
